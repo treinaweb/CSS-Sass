@@ -1,13 +1,17 @@
 body {
     background-color: rgb(36, 36, 37);
-
-    h1 {
-        color: rgb(57, 153, 57);
-    }
+}
+body h1 {
+    color: rgb(57, 153, 58);
 }
 
 .container {
+    background-color: purple;
+    text-align: center;
     p {
         color: rgb(171, 63, 63);
+        &:hover {
+            color: rgb(60, 98, 68);
+        }
     }
 }
