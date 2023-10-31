@@ -1,7 +1,10 @@
 @import 'caixa.scss';
+@import 'variaveis.scss';
+$hover-color: #c3d1c6;
 
 body {
     background-color: rgb(36, 36, 37);
+    margin-top: $minha-variavel;
 }
 body h1 {
     color: rgb(57, 153, 59);
@@ -10,14 +13,19 @@ body h1 {
 dsmdaskdmsaçd
 */
 .container {
+    $hover-color: #803a08 !default;
     /*background-color: purple;*/
     text-align: center;
     p {
         color: rgb(171, 63, 63);
         
         &:hover {
-            color: rgb(60, 98, 68);
+            color: $hover-color;
         }
         
     }
+}
+
+.div {
+    color: $hover-color;
 }

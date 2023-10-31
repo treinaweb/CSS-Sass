@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(36, 36, 37);
+  margin-top: 10px;
 }
 
 body h1 {
@@ -23,7 +24,11 @@ dsmdaskdmsaçd
   color: rgb(171, 63, 63);
 }
 .container p:hover {
-  color: rgb(60, 98, 68);
+  color: #c3d1c6;
+}
+
+.div {
+  color: #c3d1c6;
 }
 
 /*# sourceMappingURL=style.css.map */
