@@ -9,23 +9,20 @@ body {
 body h1 {
     color: rgb(57, 153, 59);
 }
-/*
-dsmdaskdmsaçd
-*/
+
 .container {
     $hover-color: #803a08 !default;
-    /*background-color: purple;*/
     text-align: center;
     p {
         color: rgb(171, 63, 63);
         
         &:hover {
-            color: $hover-color;
+            //color: mix(red, blue, 10%);
+            //color: darken(red, 20%);
+            //color: lighten(red, 20%);
+
+            //width: round(9.55465);
         }
         
     }
-}
-
-.div {
-    color: $hover-color;
 }

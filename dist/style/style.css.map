@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../src/sass/caixa.scss","../../src/sass/style.scss","../../src/sass/variaveis.scss"],"names":[],"mappings":";AAAA;EACI;EACA;;;ACEJ;EACI;EACA,YCNa;;;ADQjB;EACI;;;AAEJ;AAAA;AAAA;AAGA;AAEI;EACA;;AACA;EACI;;AAEA;EACI,OApBE;;;AA0Bd;EACI,OA3BU","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/sass/caixa.scss","../../src/sass/style.scss","../../src/sass/variaveis.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;ACEJ;EACI;EACA,YCNa;;;ADQjB;EACI;;;AAGJ;EAEI;;AACA;EACI","file":"style.css"}
