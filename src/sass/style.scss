@@ -1,2 +1,7 @@
 $minha-lista: red green blue;
+$cor-um: nth($minha-lista, 1);
+$cor-dois: nth($minha-lista, 3);
 
+.classe {
+    color: mix($cor-um, $cor-dois);
+}
