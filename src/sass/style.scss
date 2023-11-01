@@ -1,17 +1,2 @@
-//Listas
-$minha-lista: 10px 30px 50px 50% 4rem;
+$minha-lista: red green blue;
 
-.teste {
-    margin: $minha-lista;
-    margin-top: nth($minha-lista, 5);
-}
-
-// Maps
-$cores: (
-    primaria: red,
-    secundaria: blue,
-);
-
-.teste {
-    color: map-get($cores, secundaria);
-}
