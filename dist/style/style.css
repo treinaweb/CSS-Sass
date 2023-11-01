@@ -1,22 +1,10 @@
-.caixa {
-  width: 100px;
-  height: 100px;
+.teste {
+  margin: 10px 30px 50px 50% 4rem;
+  margin-top: 4rem;
 }
 
-body {
-  background-color: rgb(36, 36, 37);
-  margin-top: 10px;
-}
-
-body h1 {
-  color: rgb(57, 153, 59);
-}
-
-.container {
-  text-align: center;
-}
-.container p {
-  color: rgb(171, 63, 63);
+.teste {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
