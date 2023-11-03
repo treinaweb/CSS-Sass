@@ -8,8 +8,18 @@
     padding: $valor;
 }
 
+@mixin link{
+    text-decoration: none;
+    color: black;
+    @content;
+}
+
 .caixa {
     font-size: 1.2rem;
     @include padding(20px 30px);
     @include caixa-erro(10px, green);
+
+    a {
+        @include link;
+    }
 }
