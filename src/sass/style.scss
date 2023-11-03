@@ -1,9 +1,14 @@
-$minha-lista: red green blue;
-$cor-um: nth($minha-lista, 1);
-$cor-dois: nth($minha-lista, 3);
-$a: '../../img';
+$a: 5;
 
-.classe {
-    color: mix($cor-um, $cor-dois);
-    background-image: url('#{$a}/imagem.png');
+@if $a > 3 {
+    .classe {
+        color: blue;
+        @if true {
+            text-align: center;
+        }
+    }
+} @else {
+    .classe {
+        color: red;
+    }
 }
