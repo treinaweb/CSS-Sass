@@ -1,14 +1,20 @@
-$a: 5;
+// @for $i from 0 through 10 {
+//     .minha-classe- {
+//         color: blue;
+//     }
+// }
 
-@if $a > 3 {
-    .classe {
-        color: blue;
-        @if true {
-            text-align: center;
-        }
-    }
-} @else {
-    .classe {
-        color: red;
-    }
-}
+// $minhas-cores: red green blue;
+// @each $cor in $minhas-cores {
+//     .btn-} {
+//         background-color: $cor;
+//     }
+// }
+
+// $i: 5;
+// @while $i < 11 {
+//     .minha-classe- {
+//         padding: 20px;
+//     }
+//     $i: $i + 1;
+// }
