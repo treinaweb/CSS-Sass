@@ -1,20 +1,8 @@
-// @for $i from 0 through 10 {
-//     .minha-classe- {
-//         color: blue;
-//     }
-// }
+@function dobro($valor) {
+    @return $valor * 2;
+}
 
-// $minhas-cores: red green blue;
-// @each $cor in $minhas-cores {
-//     .btn-} {
-//         background-color: $cor;
-//     }
-// }
-
-// $i: 5;
-// @while $i < 11 {
-//     .minha-classe- {
-//         padding: 20px;
-//     }
-//     $i: $i + 1;
-// }
+.minha-classe {
+    width: dobro(200px);
+    font-size: dobro(1rem);
+}
