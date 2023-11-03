@@ -1,8 +1,19 @@
-@function dobro($valor) {
-    @return $valor * 2;
-}
-
-.minha-classe {
-    width: dobro(200px);
-    font-size: dobro(1rem);
-}
+.btn-1 {
+    width: 100px;
+  }
+  
+  .btn-2 {
+    width: 200px;
+  }
+  
+  .btn-3 {
+    width: 300px;
+  }
+  
+  .btn-4 {
+    width: 440px;
+  }
+  
+  .btn-5 {
+    width: 550px;
+  }
