@@ -1,19 +1,10 @@
-.btn-1 {
-    width: 100px;
-  }
-  
-  .btn-2 {
-    width: 200px;
-  }
-  
-  .btn-3 {
-    width: 300px;
-  }
-  
-  .btn-4 {
-    width: 440px;
-  }
-  
-  .btn-5 {
-    width: 550px;
-  }
+@for $i from 1 through 5 {
+    .btn-#{$i} {
+        @if $i < 4 {
+            width: 100px * $i;
+        }@else {
+            width: 110px * $i;
+        }
+       
+    }
+}
