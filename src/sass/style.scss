@@ -1,15 +1,15 @@
-@mixin caixa-erro{
-    color: red;
+@mixin caixa-erro($border: 5px, $cor: red){
+    color: $cor;
     background-color: white;
-    border: solid 2px red;
+    border: solid $border $cor;
+}
+
+@mixin padding($valor) {
+    padding: $valor;
 }
 
 .caixa {
     font-size: 1.2rem;
-    padding: 10px;
-    @include caixa-erro;
-}
-
-.caixa-2 {
-    @include caixa-erro;
+    @include padding(20px 30px);
+    @include caixa-erro(10px, green);
 }
