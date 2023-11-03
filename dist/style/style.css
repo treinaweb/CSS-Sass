@@ -1,21 +1,15 @@
-.btn-1 {
-  width: 100px;
+.caixa {
+  font-size: 1.2rem;
+  padding: 10px;
+  color: red;
+  background-color: white;
+  border: solid 2px red;
 }
 
-.btn-2 {
-  width: 200px;
-}
-
-.btn-3 {
-  width: 300px;
-}
-
-.btn-4 {
-  width: 440px;
-}
-
-.btn-5 {
-  width: 550px;
+.caixa-2 {
+  color: red;
+  background-color: white;
+  border: solid 2px red;
 }
 
 /*# sourceMappingURL=style.css.map */

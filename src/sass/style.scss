@@ -1,10 +1,15 @@
-@for $i from 1 through 5 {
-    .btn-#{$i} {
-        @if $i < 4 {
-            width: 100px * $i;
-        }@else {
-            width: 110px * $i;
-        }
-       
-    }
+@mixin caixa-erro{
+    color: red;
+    background-color: white;
+    border: solid 2px red;
+}
+
+.caixa {
+    font-size: 1.2rem;
+    padding: 10px;
+    @include caixa-erro;
+}
+
+.caixa-2 {
+    @include caixa-erro;
 }
