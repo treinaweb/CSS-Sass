@@ -1,17 +1,17 @@
-.botao-primary {
-    background-color: #0074D9;
-    color: #FFFFFF;
-    font-size: 18px;
-  }
-  
-  .botao-success {
-    background-color: #2ECC40;
-    color: #FFFFFF;
-    font-size: 16px;
-  }
-  
-  .botao-warning {
-    background-color: #FF851B;
-    color: #FFFFFF;
-    font-size: 20px;
-  }
+@mixin btn-padrao($bgColor: #0074d9, $color: #ffffff, $fontSize: 18px) {
+    background-color: $bgColor;
+    color: $color;
+    font-size: $fontSize;
+}
+
+.btn-primary {
+    @include btn-padrao;
+}
+
+.btn-success {
+    @include btn-padrao(#2ecc40, #fff, 16px);
+}
+
+.btn-warning {
+    @include btn-padrao(#ff851b, #fff, 20px);
+}
