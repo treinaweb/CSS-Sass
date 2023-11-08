@@ -1,15 +1,13 @@
-.btn-warning, .btn-primary {
-  max-width: 150px;
-  padding: 10px 20px;
+.box {
+  border: solid 2px black;
+  padding: 10px;
 }
-
-.btn-primary {
-  background-color: blue;
-  color: white;
+.box__botao {
+  color: #fff;
+  border-radius: 5px;
 }
-
-.btn-warning {
-  background-color: orange;
+.box--error {
+  background-color: red;
   color: black;
 }
 

@@ -1,15 +1,14 @@
-%btn {
-    max-width: 150px;
-    padding: 10px 20px;
-}
+.box {
+    border: solid 2px black;
+    padding: 10px;
 
-.btn-primary {
-    background-color: blue;
-    color: white;
-    @extend %btn;
-}
-.btn-warning {
-    background-color: orange;
-    color: black;
-    @extend %btn;
+    &__botao {
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    &--error {
+        background-color: red;
+        color: black;
+    }
 }
