@@ -1,13 +1,19 @@
-.caixa {
-  font-size: 1.2rem;
-  padding: 20px 30px;
-  color: green;
-  background-color: white;
-  border: solid 10px green;
+.botao-primary {
+  background-color: #0074D9;
+  color: #FFFFFF;
+  font-size: 18px;
 }
-.caixa a {
-  text-decoration: none;
-  color: black;
+
+.botao-success {
+  background-color: #2ECC40;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.botao-warning {
+  background-color: #FF851B;
+  color: #FFFFFF;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
