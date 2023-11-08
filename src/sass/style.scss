@@ -1,17 +1,15 @@
-@mixin btn-padrao($bgColor: #0074d9, $color: #ffffff, $fontSize: 18px) {
-    background-color: $bgColor;
-    color: $color;
-    font-size: $fontSize;
+.btn {
+    max-width: 150px;
+    padding: 10px 20px;
 }
 
 .btn-primary {
-    @include btn-padrao;
+    background-color: blue;
+    color: white;
+    @extend .btn;
 }
-
-.btn-success {
-    @include btn-padrao(#2ecc40, #fff, 16px);
-}
-
 .btn-warning {
-    @include btn-padrao(#ff851b, #fff, 20px);
+    background-color: orange;
+    color: black;
+    @extend .btn;
 }
