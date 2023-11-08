@@ -1,0 +1,14 @@
+.btn-warning, .btn-primary {
+  max-width: 150px;
+  padding: 10px 20px;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+
+.btn-warning {
+  background-color: orange;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
