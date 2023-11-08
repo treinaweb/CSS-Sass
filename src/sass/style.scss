@@ -1,14 +1,7 @@
-.box {
-    border: solid 2px black;
-    padding: 10px;
-
-    &__botao {
-        color: #fff;
-        border-radius: 5px;
-    }
-
-    &--error {
-        background-color: red;
-        color: black;
-    }
-}
+@import "1\ -\ settings/variaveis";
+@import "2\ -\ tools/tools";
+@import "3\ -\ generic/generic";
+@import "4\ -\ base/base";
+@import "5\ -\ object/object";
+@import "6\ -\ components/components";
+@import "7\ -\ trumps/trumps";
