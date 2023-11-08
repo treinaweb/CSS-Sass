@@ -1,4 +1,4 @@
-.btn {
+%btn {
     max-width: 150px;
     padding: 10px 20px;
 }
@@ -6,10 +6,10 @@
 .btn-primary {
     background-color: blue;
     color: white;
-    @extend .btn;
+    @extend %btn;
 }
 .btn-warning {
     background-color: orange;
     color: black;
-    @extend .btn;
+    @extend %btn;
 }
